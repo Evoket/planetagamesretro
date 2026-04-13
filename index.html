@@ -115,9 +115,11 @@ canvas{display:block;width:100%;image-rendering:pixelated;}
   <div id="powerupBar"><span class="pu-label">POWER-UPS:</span><span id="puStatus" style="color:#c9a22733;font-size:10px;letter-spacing:1px">NENHUM</span></div>
   <canvas id="gameCanvas" width="480" height="440"></canvas>
   <div id="mobileControls">
-    <button class="ctrl-btn" id="leftBtn">◀</button>
+    <div style="display:flex;gap:10px;">
+      <button class="ctrl-btn" id="leftBtn">◀</button>
+      <button class="ctrl-btn" id="rightBtn">▶</button>
+    </div>
     <button class="ctrl-btn fire-btn" id="fireBtn">✦</button>
-    <button class="ctrl-btn" id="rightBtn">▶</button>
   </div>
   <div id="pauseOverlay">
     <div class="pause-title">⏸ PAUSA</div>
